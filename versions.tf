@@ -8,7 +8,7 @@ terraform {
   }
 
   cloud {
-    organization = "sai-tfc-org"
+    organization = "knh-tfc-org"
 
     workspaces {
       tags = [ "aws-hcp-vault-cluster" ]
